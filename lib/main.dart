@@ -135,19 +135,16 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
 
-            SizedBox(
-              width: 340,
-              child: TextField(
-                decoration: const InputDecoration(
-                  labelText: "Şifreniz:",
-                  hintText: "Lütfen istenilen bilgiyi giriniz",
-                  hintTextDirection: TextDirection.rtl,
-                ),
-                maxLines: 1,
-                onChanged: (Text) {
-                  _SifreAl(Text);
-                },
+            TextField(
+              decoration: const InputDecoration(
+                labelText: "Şifreniz:",
+                hintText: "Lütfen istenilen bilgiyi giriniz",
+                hintTextDirection: TextDirection.rtl,
               ),
+              maxLines: 1,
+              onChanged: (Text) {
+                _SifreAl(Text);
+              },
             ),
 
             ElevatedButton(
