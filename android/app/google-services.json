@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "334618555349",
+    "project_id": "marketsatis-85720",
+    "storage_bucket": "marketsatis-85720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334618555349:android:a6fa4295962b824be4035c",
+        "android_client_info": {
+          "package_name": "com.isimsiz.market_satis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334618555349-hlkb3epv6pc9jb8k330h0i4qint5pq20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7F5-SpQmT91DmbMfCZROBpWNMIgV81HE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334618555349-hlkb3epv6pc9jb8k330h0i4qint5pq20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

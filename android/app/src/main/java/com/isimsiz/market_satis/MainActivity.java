@@ -1,4 +1,4 @@
-package com.example.market_satis;
+package com.isimsiz.market_satis;
 
 import io.flutter.embedding.android.FlutterActivity;
 

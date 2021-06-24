@@ -8,11 +8,12 @@ class hakkinda extends StatefulWidget {
 }
 
 class _hakkindaState extends State<hakkinda> {
+  //açık oluşmaması için temelWidget'tan extends edilmemiştir.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("<<<== ! HAKKINDA !==>>>"),
+        title: Text("<<<== ! HAKKINDA ! ==>>>"),
         centerTitle: true,
       ),
       body: Column(
@@ -21,7 +22,7 @@ class _hakkindaState extends State<hakkinda> {
           Row(
             children: <Widget>[
               Image(
-                image: AssetImage("Resimler/selmin.png"),
+                image: AssetImage("assets/selmin.png"),
                 width: 200, // genişlik
                 height: 200, // yükseklik
               ),
